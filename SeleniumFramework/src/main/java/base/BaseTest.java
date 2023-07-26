@@ -34,7 +34,11 @@ public void beforeTestMethod()
 }
 }
 
-	@BeforeMethod
+@BeforeMethod
+@Parameters("browser")
+public void beforeMethodMethod(String browser)
+
+		
 	@AfterMethod
 	@AfterTest
 	
